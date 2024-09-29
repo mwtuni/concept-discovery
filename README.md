@@ -1,8 +1,8 @@
-## Architectural Overview of GenAI-Assisted Concept Discovery Tool
-
 This project employs Generative AI to create new concepts about anything. It generates thousands of images based on user-defined new product concepts and reverse-engineers the technologies, materials, or other specifics visible in these images.
 
-### Workflow Breakdown
+![image](https://github.com/user-attachments/assets/bd5d5fd9-f5a4-4bfb-b42b-948732d0545c)
+
+### Architectural Overview of GenAI-Assisted Concept Discovery Tool ###
 
 1. **Stable Diffusion (SD)**: 
    - Uses "Image Generative AI (AUTO1111)" to generate thousands of images based on user-defined specifications for new products and serves as the primary creative engine in this workflow.
