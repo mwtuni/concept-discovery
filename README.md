@@ -18,3 +18,20 @@ This project employs Generative AI to create new concepts about anything. It gen
 ![image](https://github.com/user-attachments/assets/c4c8001f-4401-43e7-aabb-dae5a8b4d79e)
  
 This architecture leverages a combination of image generation, vision-language understanding, and data analysis to facilitate a comprehensive concept discovery process, enabling users to visualize and analyze technologies embedded in generated product images.
+
+## Jenkins Multimodal Sanity Check
+
+The **jenkins** folder in the GitHub repository contains a multimodal sanity check designed to validate the integration of vision, language, and Retrieval-Augmented Generation (RAG) capabilities in the algorithm 
+
+### Verification Process
+
+The sanity check involves prompting the model with the question, "What is the character in the image and what hygienic product does he use?" The correct answer should integrate:
+- Visual analysis from the image,
+- Information retrieved from the `data.txt` file,
+- Details from the user prompt.
+
+If the system is functioning correctly, it should provide an accurate response that includes elements from all three sources. If there is an issue with the model's ability to utilize these sources, it might produce hallucinated or incomplete answers, indicating a breakdown in multimodal integration.
+
+### Purpose
+
+The Jenkins sanity check is crucial for validating that the LLaVA VLM effectively uses both visual and RAG data in conjunction with user prompts, ensuring that the system responds accurately and without unnecessary hallucination. This test helps maintain the integrity and robustness of the AI-assisted concept discovery tool by confirming that it can handle complex, multimodal data inputs.
