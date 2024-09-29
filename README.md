@@ -15,5 +15,6 @@ This project employs Generative AI to create new concepts about anything. It gen
 
 4. **Data Analysis & Interactive Scatter Plot View**:
    - The CSV data provided by the LLM is analyzed using Python libraries (Pandas, Seaborn, Numpy). The main outcome is an **interactive Scatter Plot view** that allows users to explore and observe technological details. When a user hovers over a particular data point in the plot, detailed information about the technologies present is displayed, providing an intuitive way to analyze and understand the concepts discovered through this Generative AI process.
-
+![image](https://github.com/user-attachments/assets/c4c8001f-4401-43e7-aabb-dae5a8b4d79e)
+ 
 This architecture leverages a combination of image generation, vision-language understanding, and data analysis to facilitate a comprehensive concept discovery process, enabling users to visualize and analyze technologies embedded in generated product images.
