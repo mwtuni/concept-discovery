@@ -1,4 +1,4 @@
-This project employs Generative AI to create new concepts about anything. It generates thousands of images based on user-defined new product concepts and reverse-engineers the technologies, materials, or other specifics visible in these images.
+This project employs Generative AI to create new concepts about anything. It generates thousands of images based on user-defined idea and reverse-engineers the technologies, materials, or other specifics visible in these generated concept images.
 
 ![image](https://github.com/user-attachments/assets/bd5d5fd9-f5a4-4bfb-b42b-948732d0545c)
 
