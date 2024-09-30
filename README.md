@@ -19,7 +19,7 @@ This project employs Generative AI to create new concepts about anything. It gen
  
 This architecture leverages a combination of image generation, vision-language understanding, and data analysis to facilitate a comprehensive concept discovery process, enabling users to visualize and analyze technologies embedded in generated product images.
 
-## Jenkins Multimodal Sanity Check
+## Multimodal data integrity verification
 
 The **jenkins** folder in the GitHub repository contains a multimodal sanity check designed to validate the integration of vision, language, and Retrieval-Augmented Generation (RAG) capabilities in the algorithm 
 
